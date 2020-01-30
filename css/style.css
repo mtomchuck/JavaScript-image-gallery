@@ -1,0 +1,49 @@
+.gallery {
+    max-width: 1300px;
+}
+
+.gallery ul {
+    list-style: none;
+}
+
+.gallery li {
+    display: inline-block;
+}
+
+.gallery li img {
+    width: 400px;
+    height: 400px;
+}
+
+.gallery li img:hover {
+    opacity: 0.7;
+}
+
+.fullScreen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background:rgba(255,255,255,0.7);
+}
+
+/* BUTTON */
+/* .fullScreen .close {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 20px;
+    border: 2px solid palevioletred;
+    border-radius: 10px;
+    background-color: palevioletred;
+    color: white;
+    font-weight: 700;
+} */
+
+.fullScreen img {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+}
